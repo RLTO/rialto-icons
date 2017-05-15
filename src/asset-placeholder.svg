@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94" height="94" viewBox="0 0 94 94">
+  <g fill="none" fill-rule="evenodd" stroke="#91A6B6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <polygon points="1 29 37 29 37 93 1 93"/>
+    <polygon points="5 13 33 13 33 29 5 29"/>
+    <path d="M19,13 L19,1"/>
+    <polygon points="65 37 93 37 93 93 65 93"/>
+    <polygon points="69 25 89 25 89 37 69 37"/>
+    <path d="M37 53L65 53M37 93L65 93M13 21L25 21M9 37L29 37M9 45L29 45M9 53L29 53M9 61L29 61M9 69L29 69M9 77L29 77M73 45L85 45M73 53L85 53M73 61L85 61M73 69L85 69M73 77L85 77M45 61L57 61M45 69L57 69M45 77L57 77"/>
+    <polygon points="11 85 19 85 19 93 11 93"/>
+    <polygon points="77 85 85 85 85 93 77 93"/>
+  </g>
+</svg>
