@@ -1,6 +1,6 @@
 {
   "name": "rialto-icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Set of icons used in Rialto",
   "scripts": {
     "build": "babel-node --presets es2015 ./scripts/build.js"
