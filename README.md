@@ -89,6 +89,7 @@ Below you'll find a list of icons
 |misc-save|![](/src/misc-save@3x.png)|
 |more-circle|![](/src/more-circle@3x.png)|
 |more|![](/src/more@3x.png)|
+|not_under_offer|![](/src/not_under_offer@3x.png)|
 |notifications-inactive|![](/src/notifications-inactive@3x.png)|
 |notifications|![](/src/notifications@3x.png)|
 |o separator|![](/src/o separator@3x.png)|
@@ -127,6 +128,7 @@ Below you'll find a list of icons
 |subscribe|![](/src/subscribe@3x.png)|
 |timesep-white|![](/src/timesep-white@3x.png)|
 |timesep|![](/src/timesep@3x.png)|
+|under_offer|![](/src/under_offer@3x.png)|
 |view-green|![](/src/view-green@3x.png)|
 |view-small|![](/src/view-small@3x.png)|
 |view-white|![](/src/view-white@3x.png)|
