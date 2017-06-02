@@ -17,6 +17,8 @@ Below you'll find a list of icons
 |arrow-order-down|![](/src/arrow-order-down@3x.png)|
 |arrow-order-up-black|![](/src/arrow-order-up-black@3x.png)|
 |arrow-order-up|![](/src/arrow-order-up@3x.png)|
+|arrow-pagination_left|![](/src/arrow-pagination_left@3x.png)|
+|arrow-pagination_right|![](/src/arrow-pagination_right@3x.png)|
 |arrow-right-small-lightgray|![](/src/arrow-right-small-lightgray@3x.png)|
 |arrow-right-small|![](/src/arrow-right-small@3x.png)|
 |arrow-select|![](/src/arrow-select@3x.png)|
@@ -49,6 +51,7 @@ Below you'll find a list of icons
 |download|![](/src/download@3x.png)|
 |drag|![](/src/drag@3x.png)|
 |edit|![](/src/edit@3x.png)|
+|ellipse-pagination|![](/src/ellipse-pagination@3x.png)|
 |email|![](/src/email@3x.png)|
 |executed|![](/src/executed@3x.png)|
 |export_type-csv|![](/src/export_type-csv@3x.png)|
