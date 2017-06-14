@@ -132,6 +132,7 @@ Below you'll find a list of icons
 |timesep-white|![](/src/timesep-white@3x.png)|
 |timesep|![](/src/timesep@3x.png)|
 |under_offer|![](/src/under_offer@3x.png)|
+|update_time|![](/src/update_time@3x.png)|
 |view-green|![](/src/view-green@3x.png)|
 |view-small|![](/src/view-small@3x.png)|
 |view-white|![](/src/view-white@3x.png)|
