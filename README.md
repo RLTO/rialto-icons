@@ -50,6 +50,7 @@ Below you'll find a list of icons
 |download-green|![](/src/download-green@3x.png)|
 |download|![](/src/download@3x.png)|
 |drag|![](/src/drag@3x.png)|
+|duplicate|![](/src/duplicate@3x.png)|
 |edit|![](/src/edit@3x.png)|
 |ellipse-pagination|![](/src/ellipse-pagination@3x.png)|
 |email|![](/src/email@3x.png)|
