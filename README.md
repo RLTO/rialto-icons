@@ -25,6 +25,7 @@ Below you'll find a list of icons
 |arrow-up|![](/src/arrow-up@3x.png)|
 |asset-placeholder|![](/src/asset-placeholder@3x.png)|
 |asset|![](/src/asset@3x.png)|
+|call|![](/src/call@3x.png)|
 |category-archive|![](/src/category-archive@3x.png)|
 |category-car-parking|![](/src/category-car-parking@3x.png)|
 |category-covered-car-parking|![](/src/category-covered-car-parking@3x.png)|
@@ -128,6 +129,7 @@ Below you'll find a list of icons
 |share-settings|![](/src/share-settings@3x.png)|
 |signout-black|![](/src/signout-black@3x.png)|
 |signout|![](/src/signout@3x.png)|
+|sms|![](/src/sms@3x.png)|
 |subscribe-blue|![](/src/subscribe-blue@3x.png)|
 |subscribe|![](/src/subscribe@3x.png)|
 |timesep-white|![](/src/timesep-white@3x.png)|
