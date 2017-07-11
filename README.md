@@ -38,6 +38,9 @@ Below you'll find a list of icons
 |category-storage|![](/src/category-storage@3x.png)|
 |close-white|![](/src/close-white@3x.png)|
 |close|![](/src/close@3x.png)|
+|collapse-blue|![](/src/collapse-blue@3x.png)|
+|collapse-white|![](/src/collapse-white@3x.png)|
+|collapse|![](/src/collapse@3x.png)|
 |custom-black|![](/src/custom-black@3x.png)|
 |custom|![](/src/custom@3x.png)|
 |datepicker-small|![](/src/datepicker-small@3x.png)|
@@ -56,6 +59,9 @@ Below you'll find a list of icons
 |ellipse-pagination|![](/src/ellipse-pagination@3x.png)|
 |email|![](/src/email@3x.png)|
 |executed|![](/src/executed@3x.png)|
+|expand-blue|![](/src/expand-blue@3x.png)|
+|expand-white|![](/src/expand-white@3x.png)|
+|expand|![](/src/expand@3x.png)|
 |export_type-csv|![](/src/export_type-csv@3x.png)|
 |export_type-pdf|![](/src/export_type-pdf@3x.png)|
 |form-checkbox-checked-blue|![](/src/form-checkbox-checked-blue@3x.png)|
