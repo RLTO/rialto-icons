@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>notification-error</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="notification-/-error" fill="#FFFFFF">
+            <path d="M0,20 L20,20 L20,0 L0,0 L0,20 Z M9.99961853,8.5 L7.5,6.0027092 L6.0002449,7.5 L8.5,10 L6.0002449,12.5 L7.5,14.0018227 L10,11.5 L12.5,14.0018227 L13.9989922,12.5 L11.5,10 L13.9989922,7.5 L12.5,6.0027092 L9.99961853,8.5 Z" id="notification-error"></path>
+        </g>
+    </g>
+</svg>
