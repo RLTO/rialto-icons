@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "lts/*"
+install:
+  - yarn --pure-lockfile
+before_script:
+script:
+  - yarn build
+cache:
+  yarn: true
+  directories:
+    - node_modules
+    - /home/travis/.rvm/
+notifications:
+  email: false
