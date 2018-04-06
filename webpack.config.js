@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
   entry: ["./src/Icon.js"],
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "lib"),
     filename: "index.js"
   },
 
