@@ -1,11 +1,18 @@
 language: node_js
 node_js:
   - "lts/*"
+branches:
+  only:
+  - master
 install:
   - yarn --pure-lockfile
-before_script:
+  - chmod +x ./scripts/push.sh
 script:
   - yarn build
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: ./scripts/push.sh
 cache:
   yarn: true
   directories:

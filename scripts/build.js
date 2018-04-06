@@ -6,7 +6,7 @@ import extract from "extract-svg-path";
 import icons from "./icons.js"
 
 const iconPath = (icon) => {
-  const ghPath = "/src"
+  const ghPath = "/icons"
   return path.join(ghPath, icon);
 }
 
