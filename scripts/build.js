@@ -1,5 +1,7 @@
 import fs from "fs";
 import path from "path";
+import extract from "extract-svg-path";
+
 
 import icons from "./icons.js"
 
@@ -8,7 +10,7 @@ const iconPath = (icon) => {
   return path.join(ghPath, icon);
 }
 
-const iconsMarkdown = icons.map((i) => (`|${i.replace("@3x.png", "")}|![](${iconPath(i)})|\n`))
+const iconsMarkdown = icons.map((i) => (`|${i.replace(".svg", "")}|![](${iconPath(i.replace(".svg", "@3x.png"))})|\n`))
                            .join("")
 
 const readme = () => (
@@ -22,13 +24,25 @@ ${iconsMarkdown}
   `
 )
 
-
-const build = () => {
+const buildReadme = () => {
   let dest = path.join(process.cwd(), "./README.md");
   fs.writeFile(dest, readme(), (err) => {
     if (err) throw err;
-    console.log("README.md created");
+    console.log("README.md created!");
+  });
+}
+
+const buildIconPaths = () => {
+  const paths = icons.reduce((paths, icon) => (
+    Object.assign(paths, { [icon.replace(".svg", "")]: extract(`icons/${icon}`)})
+  ), {});
+
+  let dest = path.join(process.cwd(), "./icons.js");
+  fs.writeFile(dest, `module.exports = ${JSON.stringify(paths)}`, (err) => {
+    if (err) throw err;
+    console.log("icons.js created!");
   });
 };
 
-build();
+buildReadme();
+buildIconPaths();

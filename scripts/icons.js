@@ -9,8 +9,8 @@ import fs from "fs";
  */
 function readIcons() {
   // Check directory existence
-  const nameFilter = (fileName) => (fileName.endsWith("@3x.png"))
-  return _readIcons("src/", nameFilter);
+  const nameFilter = (fileName) => (fileName.endsWith(".svg"))
+  return _readIcons("icons/", nameFilter);
 }
 
 /**
@@ -28,7 +28,7 @@ function * _readIcons(dir, filter) {
   }
 }
 
-let icons = []
+let icons = [];
 
 for (let icon of readIcons()) {
   icons = [...icons, icon]
