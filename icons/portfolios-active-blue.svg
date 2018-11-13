@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>portfolios-active-blue</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Global-Interactions" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ui---portfolios----open" transform="translate(-26.000000, -26.000000)" fill="#4DC9FF" fill-rule="nonzero">
+            <g id="open-portfolios">
+                <path d="M27.9950893,46 C26.8932319,46 26,45.1017876 26,44.0092049 L26,27.9907951 C26,26.8913093 26.8926228,26 27.9950893,26 L44.0049107,26 C45.1067681,26 46,26.8982124 46,27.9907951 L46,44.0092049 C46,45.1086907 45.1073772,46 44.0049107,46 L27.9950893,46 Z M32,44 L44,44 L44,28 L32,28 L32,44 Z M36,36 L41,32 L41,40 L36,36 Z" id="portfolios-active-blue"></path>
+            </g>
+        </g>
+    </g>
+</svg>
