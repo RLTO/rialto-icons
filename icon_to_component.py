@@ -27,7 +27,13 @@ def _to_camel_case(filename):
 def _without_extension(filename):
 	return filename[0:-4]
 
+def _fix_xmlns(svg):
+	ch_index = svg.find('xmlns:')+6
+	svg = svg[:ch_index] + svg[ch_index].upper() + svg[ch_index+1:] 
+	return svg.replace('xmlns:','xmlns')
+
 def create_component(name, svg):
+	svg = _fix_xmlns(svg)
 	componentString = '''
 import React from "react";
 import PropTypes from "prop-types";
