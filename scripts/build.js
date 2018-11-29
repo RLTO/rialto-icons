@@ -1,9 +1,7 @@
-import fs from "fs";
-import path from "path";
-import extract from "extract-svg-path";
+const fs = require("fs");
+const path = require("path");
 
-
-import icons from "./icons.js"
+const icons = require("./icons.js");
 
 const iconPath = (icon) => {
   const ghPath = "/icons"
@@ -32,17 +30,4 @@ const buildReadme = () => {
   });
 }
 
-const buildIconPaths = () => {
-  const paths = icons.reduce((paths, icon) => (
-    Object.assign(paths, { [icon.replace(".svg", "")]: extract(`icons/${icon}`)})
-  ), {});
-
-  let dest = path.join(process.cwd(), "./icons.js");
-  fs.writeFile(dest, `module.exports = ${JSON.stringify(paths)}`, (err) => {
-    if (err) throw err;
-    console.log("icons.js created!");
-  });
-};
-
 buildReadme();
-buildIconPaths();

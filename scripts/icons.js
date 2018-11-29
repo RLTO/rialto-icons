@@ -1,4 +1,4 @@
-import fs from "fs";
+const fs = require("fs");
 
 /**
  * Get a generator for file names contained in a directory an subdirectories.
@@ -34,4 +34,4 @@ for (let icon of readIcons()) {
   icons = [...icons, icon]
 }
 
-export default icons;
+module.exports = icons;

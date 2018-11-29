@@ -6,13 +6,13 @@ branches:
   - master
 install:
   - yarn --pure-lockfile
-  - chmod +x ./scripts/push.sh
+  - chmod +x ./deploy.sh
 script:
-  - yarn build
+  - node scripts/build.js
 deploy:
   provider: script
   skip_cleanup: true
-  script: ./scripts/push.sh
+  script: ./deploy.sh
 cache:
   yarn: true
   directories:
