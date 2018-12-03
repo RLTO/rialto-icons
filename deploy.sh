@@ -34,8 +34,8 @@ rm *
 rm -rf icons/ svgo/ scripts/ src/
 mv dist/* .
 rm -rf dist
-git add -A
 npm version patch -m "Release %s [ci skip]" --force
+git add -A
 
 # Push the latest changes
 git push -f --follow-tags origin $BRANCH
