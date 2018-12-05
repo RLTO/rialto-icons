@@ -23,7 +23,7 @@ python3 icon_to_component.py
 cp -r src/* dist/
 
 # Update icon library package
-rm .babelrc .gitignore .travis.yml README.md deploy.sh icon_to_component.py yarn.lock icons.js
+rm .babelrc .gitignore .travis.yml README.md deploy.sh icon_to_component.py yarn.lock
 rm -rf icons/ 
 rm -rf svgo/
 rm -rf scripts/
@@ -31,15 +31,16 @@ rm -rf src/
 rm -rf node_modules/
 mv dist/* .
 rm -rf dist
-npm version patch -m "Release %s [ci skip]" --force
 git add -A
+git commit -m "Update icons library [ci skip]"
+npm version patch -m "Release %s [ci skip]" --force
 git push -f --follow-tags origin $BRANCH
 
 # Add README and bump package.json version
-git reset --hard origin/master
 git checkout master
+git reset --hard origin master
 npm version patch --force --no-git-tag-version
 node scripts/build.js
 git add README.md package.json
 git commit -m "Update README.md and library version [ci skip]"
-git push
+git push origin master
