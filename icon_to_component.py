@@ -4,6 +4,7 @@ import subprocess
 
 def svgo():
 	subprocess.call([
+		'node',
 		'./node_modules/svgo/bin/svgo',
 		'-f',
 		'./icons',
@@ -68,10 +69,9 @@ def create_index_file(react_components):
         import_string += 'import {componentName} from "{componentPath}";\n'.format(
             componentName=componentName, 
             componentPath='./'+componentName)
-    import_string += '\nexport default {'
     for componentName in react_components:
-        import_string += '\n\t{componentName},'.format(componentName=componentName)
-    import_string += '\n}'
+        import_string += '\nexport const {componentName};'.format(componentName=componentName)
+    import_string += '\n'
     return import_string
 
 if __name__ == "__main__":
