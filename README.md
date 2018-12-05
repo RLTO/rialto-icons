@@ -43,7 +43,7 @@ Below you'll find a list of icons
 |category-meeting|![](/icons/category-meeting@3x.png)|
 |category-office|![](/icons/category-office@3x.png)|
 |category-other|![](/icons/category-other@3x.png)|
-|category-outdoor|![](/icons/category-outdoor@3x.png)|
+|category-outdoor-area|![](/icons/category-outdoor-area@3x.png)|
 |category-residential|![](/icons/category-residential@3x.png)|
 |category-retail|![](/icons/category-retail@3x.png)|
 |category-showroom|![](/icons/category-showroom@3x.png)|
