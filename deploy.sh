@@ -21,14 +21,14 @@ mkdir dist/
 mkdir svgo/
 python3 icon_to_component.py
 cp -r src/* dist/
-cp package.json dist/
 
 # Update icon library package
-rm .babelrc .gitignore .travis.yml README.md deploy.sh icon_to_component.py yarn.lock
+rm .babelrc .gitignore .travis.yml README.md deploy.sh icon_to_component.py yarn.lock icons.js
 rm -rf icons/ 
 rm -rf svgo/
 rm -rf scripts/
 rm -rf src/
+rm -rf node_modules/
 mv dist/* .
 rm -rf dist
 npm version patch -m "Release %s [ci skip]" --force
