@@ -37,14 +37,14 @@ def _fix_xmlns_xlink(svg, attr):
 	return svg
 
 def create_component(name, svg):
-	_fix_xmlns_xlink('xmlns')
-	_fix_xmlns_xlink('xlink')
+	svg = _fix_xmlns_xlink(svg, 'xmlns')
+	svg = _fix_xmlns_xlink(svg, 'xlink')
 	componentString = '''
 import React from "react";
 import PropTypes from "prop-types";
 import getIconStyle from "./iconStyle.js";
 
-const {name} = ( {{size, onClick}} ) => (
+const {name} = ({{ size, onClick }}) => (
   <svg style={{getIconStyle(size)}} onClick={{onClick}}>
   {svg}
   </svg>
