@@ -46,7 +46,7 @@ import PropTypes from "prop-types";
 import getIconStyle from "./iconStyle.js";
 
 const {name} = ({{ size, onClick }}) => (
-	<svg style={{getIconStyle(size)}} onClick={{onClick}}>
+	<svg {{...getIconStyle(size)}} viewBox="0 0 16 16"  onClick={{onClick}}>
 	{svg}
 	</svg>
 ); 
