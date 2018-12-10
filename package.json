@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/RLTO/rialto-icons.git"
   },
+  "scripts": {
+    "build": "babel ./dist --out-dir dist"
+  },
   "author": "",
   "license": "UNLICENSED",
   "bugs": {
@@ -13,6 +16,15 @@
   },
   "homepage": "https://github.com/RLTO/rialto-icons#readme",
   "dependencies": {
+    "react": ">=16.5.2",
     "svgo": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-transform-react-jsx": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4"
   }
 }

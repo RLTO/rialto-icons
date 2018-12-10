@@ -21,6 +21,7 @@ mkdir dist/
 mkdir svgo/
 python3 icon_to_component.py
 cp -r src/* dist/
+yarn build
 
 # Update icon library package
 rm .babelrc .gitignore .travis.yml README.md deploy.sh icon_to_component.py yarn.lock
