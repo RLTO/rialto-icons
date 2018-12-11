@@ -45,7 +45,7 @@ def create_component(name, svg):
     import getIconStyle from "./iconStyle.js";
 
     const {name} = props => (
-      <svg {{...getIconStyle(props.size)}} {{...props}} onClick={{props.onClick}}>
+      <svg {{...getIconStyle(props.size)}} viewBox="0 0 16 16" {{...props}} onClick={{props.onClick}}>
       {svg}
       </svg>
     ); 
