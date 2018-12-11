@@ -40,24 +40,23 @@ def _fix_xmlns_xlink(svg, attr):
 def create_component(name, svg):
 	svg = _fix_xmlns_xlink(svg, 'xmlns')
 	svg = _fix_xmlns_xlink(svg, 'xlink')
-	componentString = '''
-import React from "react";
-import PropTypes from "prop-types";
-import getIconStyle from "./iconStyle.js";
+	componentString = '''import React from "react";
+    import PropTypes from "prop-types";
+    import getIconStyle from "./iconStyle.js";
 
-const {name} = ({{ size, onClick }}) => (
-	<svg {{...getIconStyle(size)}} viewBox="0 0 16 16"  onClick={{onClick}}>
-	{svg}
-	</svg>
-); 
+    const {name} = props => (
+      <svg {{...getIconStyle(props.size)}} {{...props}} onClick={{props.onClick}}>
+      {svg}
+      </svg>
+    ); 
 
-{name}.propTypes = {{
-	size: PropTypes.string,
-	onClick: PropTypes.func,
-}};
+    {name}.propTypes = {{
+      size: PropTypes.string,
+      onClick: PropTypes.func,
+    }};
 
-export default {name};
-'''.format(name = name, svg = svg)
+    export default {name};
+    '''.format(name = name, svg = svg)
 	return componentString
 
 def write_component(name, component):
