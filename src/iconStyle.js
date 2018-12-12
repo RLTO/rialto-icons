@@ -7,20 +7,13 @@ const iconXs = ".625rem";
 const iconXxs = ".5rem";
 
 const getSize = (size) => {
-  switch (size) {
-    case "xlarge":
-      return iconXlarge;
-    case "large":
-      return iconLarge;
-    case "small":
-      return iconSmall;
-    case "xs":
-      return iconXs;
-    case "xxs":
-      return iconXxs;
-    default:
-      return iconDefault;
-  }
+  return {
+    "xlarge": iconXlarge,
+    "large": iconLarge,
+    "small": iconSmall,
+    "xs":iconXs,
+    "xxs":iconXxs,
+  }[size] || iconDefault
 };
 
 // eslint-disable-next-line no-unused-vars

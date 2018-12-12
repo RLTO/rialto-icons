@@ -6,6 +6,8 @@ def svgo():
 	subprocess.call([
 		'node',
 		'./node_modules/svgo/bin/svgo',
+    '--disable=removeViewBox',
+    '--enable=removeDimensions',
 		'-f',
 		'./icons',
 		'-o',
@@ -41,22 +43,29 @@ def create_component(name, svg):
 	svg = _fix_xmlns_xlink(svg, 'xmlns')
 	svg = _fix_xmlns_xlink(svg, 'xlink')
 	componentString = '''import React from "react";
-    import PropTypes from "prop-types";
-    import getIconStyle from "./iconStyle.js";
+import PropTypes from "prop-types";
+import getIconStyle from "./iconStyle.js";
 
-    const {name} = props => (
-      <svg {{...getIconStyle(props.size)}} viewBox="0 0 16 16" {{...props}} onClick={{props.onClick}}>
+const {name} = (props) => {{
+  const {{ dimensions, onClick, size, ...otherProps }} = props;
+  return (
+    <svg style={{{{ ...getIconStyle(size), ...dimensions }}}} onClick={{onClick}} {{...otherProps}}>
       {svg}
-      </svg>
-    ); 
+    </svg>
+  );
+}};
 
-    {name}.propTypes = {{
-      size: PropTypes.string,
-      onClick: PropTypes.func,
-    }};
+{name}.propTypes = {{
+  size: PropTypes.string,
+  onClick: PropTypes.func,
+  dimensions: PropTypes.shape({{
+    height: PropTypes.string,
+    width: PropTypes.string,
+  }}),
+}};
 
-    export default {name};
-    '''.format(name = name, svg = svg)
+export default {name};
+'''.format(name = name, svg = svg)
 	return componentString
 
 def write_component(name, component):
