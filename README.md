@@ -140,6 +140,7 @@ Below you'll find a list of icons
 |plus-circle-green|![](/icons/plus-circle-green@3x.png)|
 |plus-circle-small|![](/icons/plus-circle-small@3x.png)|
 |plus-circle|![](/icons/plus-circle@3x.png)|
+|plus-white|![](/icons/plus-white@3x.png)|
 |plus|![](/icons/plus@3x.png)|
 |portfolios-active-blue|![](/icons/portfolios-active-blue@3x.png)|
 |portfolios-blue|![](/icons/portfolios-blue@3x.png)|
