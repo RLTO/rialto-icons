@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>bullhorn</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bullhorn" fill="#91A6B6" fill-rule="nonzero">
+            <path d="M9,10 L10.5,10 L10.5,3 L9,3 L9,10 Z M11.5,2.3335 L11.5,10.6665 L15,13 C15.552,13 16,12.552 16,12 L16,1 C16,0.448 15.552,0 15,0 L11.5,2.3335 Z M3.0095,9.905 L3,15 C3,15.552 3.448,16 4,16 C4.552,16 5.65650592,15.2747953 6,15 C6.22899605,14.8168032 6.39566272,14.4834698 6.5,14 L6.5,10 L8,10 L8,3 L4,3 C1.791,3 0,4.291 0,6.5 C0,8.3665 1.2805,9.574 3.0095,9.905 Z"></path>
+        </g>
+    </g>
+</svg>
