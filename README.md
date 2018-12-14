@@ -31,6 +31,7 @@ Below you'll find a list of icons
 |auto_apply-silver|![](/icons/auto_apply-silver@3x.png)|
 |auto_apply-white|![](/icons/auto_apply-white@3x.png)|
 |auto_apply|![](/icons/auto_apply@3x.png)|
+|bullhorn|![](/icons/bullhorn@3x.png)|
 |call|![](/icons/call@3x.png)|
 |category-archive|![](/icons/category-archive@3x.png)|
 |category-car-parking|![](/icons/category-car-parking@3x.png)|
@@ -48,6 +49,10 @@ Below you'll find a list of icons
 |category-retail|![](/icons/category-retail@3x.png)|
 |category-showroom|![](/icons/category-showroom@3x.png)|
 |category-storage|![](/icons/category-storage@3x.png)|
+|change-added|![](/icons/change-added@3x.png)|
+|change-removed|![](/icons/change-removed@3x.png)|
+|change-under-offer|![](/icons/change-under-offer@3x.png)|
+|change-updated|![](/icons/change-updated@3x.png)|
 |checkbox-checked-disabled|![](/icons/checkbox-checked-disabled@3x.png)|
 |checkbox-checked|![](/icons/checkbox-checked@3x.png)|
 |checkbox-checkmark|![](/icons/checkbox-checkmark@3x.png)|
