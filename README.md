@@ -166,6 +166,7 @@ Below you'll find a list of icons
 |reminder_checkbox-unchecked|![](/icons/reminder_checkbox-unchecked@3x.png)|
 |reset|![](/icons/reset@3x.png)|
 |search-small|![](/icons/search-small@3x.png)|
+|search-white|![](/icons/search-white@3x.png)|
 |search|![](/icons/search@3x.png)|
 |select-all|![](/icons/select-all@3x.png)|
 |send-mail|![](/icons/send-mail@3x.png)|
