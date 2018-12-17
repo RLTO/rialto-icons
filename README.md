@@ -22,6 +22,7 @@ Below you'll find a list of icons
 |arrow-order-up|![](/icons/arrow-order-up@3x.png)|
 |arrow-pagination_left|![](/icons/arrow-pagination_left@3x.png)|
 |arrow-pagination_right|![](/icons/arrow-pagination_right@3x.png)|
+|arrow-right-small-blue|![](/icons/arrow-right-small-blue@3x.png)|
 |arrow-right-small-lightgray|![](/icons/arrow-right-small-lightgray@3x.png)|
 |arrow-right-small|![](/icons/arrow-right-small@3x.png)|
 |arrow-select|![](/icons/arrow-select@3x.png)|
