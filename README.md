@@ -55,6 +55,7 @@ Below you'll find a list of icons
 |change-removed|![](/icons/change-removed@3x.png)|
 |change-under-offer|![](/icons/change-under-offer@3x.png)|
 |change-updated|![](/icons/change-updated@3x.png)|
+|check|![](/icons/check@3x.png)|
 |checkbox-checked-disabled|![](/icons/checkbox-checked-disabled@3x.png)|
 |checkbox-checked|![](/icons/checkbox-checked@3x.png)|
 |checkbox-checkmark|![](/icons/checkbox-checkmark@3x.png)|
