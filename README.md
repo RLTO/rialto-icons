@@ -143,6 +143,7 @@ Below you'll find a list of icons
 |open-green|![](/icons/open-green@3x.png)|
 |open|![](/icons/open@3x.png)|
 |phone|![](/icons/phone@3x.png)|
+|plus-circle-black|![](/icons/plus-circle-black@3x.png)|
 |plus-circle-green|![](/icons/plus-circle-green@3x.png)|
 |plus-circle-small|![](/icons/plus-circle-small@3x.png)|
 |plus-circle|![](/icons/plus-circle@3x.png)|
