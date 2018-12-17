@@ -8,6 +8,7 @@ Below you'll find a list of icons
 |add|![](/icons/add@3x.png)|
 |advanced-filters-blue|![](/icons/advanced-filters-blue@3x.png)|
 |advanced-filters|![](/icons/advanced-filters@3x.png)|
+|apply-white|![](/icons/apply-white@3x.png)|
 |apply|![](/icons/apply@3x.png)|
 |arrow-convert|![](/icons/arrow-convert@3x.png)|
 |arrow-down-small|![](/icons/arrow-down-small@3x.png)|
