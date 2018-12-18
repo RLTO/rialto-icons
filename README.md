@@ -12,6 +12,7 @@ Below you'll find a list of icons
 |apply|![](/icons/apply@3x.png)|
 |arrow-convert|![](/icons/arrow-convert@3x.png)|
 |arrow-down-small|![](/icons/arrow-down-small@3x.png)|
+|arrow-down-white|![](/icons/arrow-down-white@3x.png)|
 |arrow-down|![](/icons/arrow-down@3x.png)|
 |arrow-left-small-lightgray|![](/icons/arrow-left-small-lightgray@3x.png)|
 |arrow-left|![](/icons/arrow-left@3x.png)|
