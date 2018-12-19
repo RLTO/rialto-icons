@@ -201,6 +201,7 @@ Below you'll find a list of icons
 |time|![](/icons/time@3x.png)|
 |trophy|![](/icons/trophy@3x.png)|
 |under_offer|![](/icons/under_offer@3x.png)|
+|upload|![](/icons/upload@3x.png)|
 |user-blue|![](/icons/user-blue@3x.png)|
 |user|![](/icons/user@3x.png)|
 |view-green|![](/icons/view-green@3x.png)|
