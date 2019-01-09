@@ -8,7 +8,11 @@ const iconPath = (icon) => {
   return path.join(ghPath, icon);
 }
 
-const iconsMarkdown = icons.map((i) => (`|${i.replace(".svg", "")}|![](${iconPath(i.replace(".svg", "@3x.png"))})|\n`))
+const toCamelCase = (filename) => (
+  filename.split(/[-,_]/).map(w => w.charAt(0).toUpperCase() + w.slice(1)).join("")
+)
+
+const iconsMarkdown = icons.map((i) => (`|${toCamelCase(i).replace(".svg", "")}|![](${iconPath(i.replace(".svg", "@3x.png"))})|\n`))
                            .join("")
 
 const readme = () => (
