@@ -7,7 +7,7 @@
     "url": "git+https://github.com/RLTO/rialto-icons.git"
   },
   "scripts": {
-    "build": "node scripts/build.js"
+    "build": "node scripts/build.js && babel ./dist --out-dir dist"
   },
   "author": "",
   "license": "UNLICENSED",
