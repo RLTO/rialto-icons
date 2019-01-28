@@ -52,9 +52,9 @@ Below you'll find a list of icons
 |CategoryRetail|![](/icons/category-retail@3x.png)|
 |CategoryShowroom|![](/icons/category-showroom@3x.png)|
 |CategoryStorage|![](/icons/category-storage@3x.png)|
-|ChangeAdded|![](/icons/change-added@3x.png)|
+|ChangeNew|![](/icons/change-new@3x.png)|
 |ChangeRemoved|![](/icons/change-removed@3x.png)|
-|ChangeUnderOffer|![](/icons/change-under-offer@3x.png)|
+|ChangeUnderOffer|![](/icons/change-under_offer@3x.png)|
 |ChangeUpdated|![](/icons/change-updated@3x.png)|
 |Check|![](/icons/check@3x.png)|
 |CheckboxCheckedDisabled|![](/icons/checkbox-checked-disabled@3x.png)|
