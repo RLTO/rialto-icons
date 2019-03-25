@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="8px" viewBox="0 0 14 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>mime-type-png</title>
+    <desc>Created with Sketch.</desc>
+    <g id="mime-type-png" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-/-mime-type">
+            <rect id="Rectangle" fill="#91A6B6" fill-rule="evenodd" x="0" y="0" width="14" height="8" rx="2"></rect>
+            <rect id="Rectangle" fill="#EDF2F6" fill-rule="evenodd" x="1" y="1" width="12" height="6" rx="1"></rect>
+            <text id="mime" font-family="RobotoMono-Bold, Roboto Mono" font-size="6" font-weight="bold" line-spacing="6" fill="#91A6B6">
+                <tspan x="1.45" y="7.1">PNG</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

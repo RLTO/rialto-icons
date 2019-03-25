@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="43px" viewBox="0 0 50 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>upload-cloud</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="file-manager----upload----1" transform="translate(-695.000000, -348.000000)" stroke="#152435" stroke-width="4">
+            <g id="content" transform="translate(569.000000, 350.000000)">
+                <g id="upload-cloud" transform="translate(128.000000, 0.000000)">
+                    <polyline id="Path" points="31 28.0044699 23 19.0044699 15 28.0044699"></polyline>
+                    <path d="M23,19.0044699 L23,39.0044699" id="Path"></path>
+                    <path d="M40.5492966,33 C44.7439726,30.6542269 46.854464,25.6897527 45.6760295,20.9404703 C44.497595,16.1911879 40.3301508,12.8658083 35.5526177,12.8625727 L32.9183853,12.8625727 C31.1853973,5.98671309 25.501623,0.916887319 18.6228734,0.111229866 C11.7441237,-0.694427587 5.09252673,2.93064668 1.89314775,9.22881438 C-1.30623124,15.5269821 -0.391945488,23.196146 4.19270824,28.5178676" id="Path"></path>
+                    <polyline id="Path" points="31 28.0044699 23 19.0044699 15 28.0044699"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
