@@ -8,6 +8,8 @@ def svgo():
 		'./node_modules/svgo/bin/svgo',
     '--disable=removeViewBox',
     '--enable=removeDimensions',
+    '--config',
+    './svgo-config.yaml',
 		'-f',
 		'./icons',
 		'-o',
@@ -39,10 +41,14 @@ def _fix_xmlns_xlink(svg, attr):
 		attr_index = svg.find(attr + ':')
 	return svg
 
+def _camel_case_attrs(svg):
+    return svg.replace("fill-rule", "fillRule").replace("stroke-linecap", "strokeLinecap").replace("stroke-linejoin", "strokeLinejoin").replace("stroke-width", "strokeWidth").replace("fill-opacity", "fillOpacity")
+
 def create_component(name, svg):
-	svg = _fix_xmlns_xlink(svg, 'xmlns')
-	svg = _fix_xmlns_xlink(svg, 'xlink')
-	componentString = '''import React from "react";
+    svg = _fix_xmlns_xlink(svg, 'xmlns')
+    svg = _fix_xmlns_xlink(svg, 'xlink')
+    svg = _camel_case_attrs(svg)
+    componentString = '''import React from "react";
 import PropTypes from "prop-types";
 import getIconStyle from "./iconStyle.js";
 
@@ -66,22 +72,22 @@ const {name} = (props) => {{
 
 export default {name};
 '''.format(name = name, svg = svg)
-	return componentString
+    return componentString
 
 def write_component(name, component):
 	open("./dist/{}.js".format(name), "w").write(component)
 
 def create_index_file(react_components):
-		import_string = ''
-		for componentName in react_components:
-				import_string += 'import {componentName} from "{componentPath}";\n'.format(
-						componentName=componentName, 
-						componentPath='./'+componentName)
-		import_string += '\nexport {'
-		for componentName in react_components:
-				import_string += '\n\t{componentName},'.format(componentName=componentName)
-		import_string += '\n}'
-		return import_string
+	import_string = ''
+	for componentName in react_components:
+			import_string += 'import {componentName} from "{componentPath}";\n'.format(
+					componentName=componentName, 
+					componentPath='./'+componentName)
+	import_string += '\nexport {'
+	for componentName in react_components:
+			import_string += '\n\t{componentName},'.format(componentName=componentName)
+	import_string += '\n}'
+	return import_string
 
 if __name__ == "__main__":
 	svgs = read_svgs()
