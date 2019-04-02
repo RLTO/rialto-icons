@@ -165,6 +165,9 @@ Below you'll find a list of icons
 |MinAmount|![](/icons/min-amount@3x.png)|
 |MoreCircle|![](/icons/more-circle@3x.png)|
 |More|![](/icons/more@3x.png)|
+|NewLabelEn|![](/icons/new-label_en@3x.png)|
+|NewLabelFr|![](/icons/new-label_fr@3x.png)|
+|NewLabelNl|![](/icons/new-label_nl@3x.png)|
 |NotUnderOffer|![](/icons/not_under_offer@3x.png)|
 |NotificationError|![](/icons/notification-error@3x.png)|
 |NotificationInformation|![](/icons/notification-information@3x.png)|
