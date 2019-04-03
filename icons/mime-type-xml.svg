@@ -4,11 +4,7 @@
     <title>mime-type-xml</title>
     <desc>Created with Sketch.</desc>
     <g id="mime-type-xml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon-/-mime-type">
-            <rect id="Rectangle" fill="#91A6B6" fill-rule="evenodd" x="0" y="0" width="15" height="8" rx="2"></rect>
-            <text id="mime" font-family="RobotoMono-Bold, Roboto Mono" font-size="7" font-weight="bold" line-spacing="7" fill="#FFFFFF">
-                <tspan x="1" y="7.5">XML</tspan>
-            </text>
-        </g>
+        <rect id="Rectangle" fill="#91A6B6" x="0" y="0" width="15" height="8" rx="2"></rect>
+        <path d="M3.33178711,3.30761719 L4.21704102,1.5234375 L5.3449707,1.5234375 L3.94360352,3.99121094 L5.37915039,6.5 L4.25805664,6.5 L3.34545898,4.68847656 L2.4362793,6.5 L1.30151367,6.5 L2.73706055,3.99121094 L1.33911133,1.5234375 L2.46020508,1.5234375 L3.33178711,3.30761719 Z M7.02661133,1.5234375 L7.49829102,3.39306641 L8.03491211,1.5234375 L9.2277832,1.5234375 L9.2277832,6.5 L8.34594727,6.5 L8.34594727,5.02685547 L8.38696289,2.69921875 L7.73413086,4.859375 L7.2590332,4.859375 L6.67456055,2.79150391 L6.71557617,5.02685547 L6.71557617,6.5 L5.83374023,6.5 L5.83374023,1.5234375 L7.02661133,1.5234375 Z M11.0769043,5.72412109 L13.407959,5.72412109 L13.407959,6.5 L10.1130371,6.5 L10.1130371,1.5234375 L11.0769043,1.5234375 L11.0769043,5.72412109 Z" id="XML" fill="#FFFFFF" fill-rule="nonzero"></path>
     </g>
 </svg>
