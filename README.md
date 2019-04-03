@@ -58,6 +58,7 @@ Below you'll find a list of icons
 |ChangeUnderOffer|![](/icons/change-under_offer@3x.png)|
 |ChangeUpdated|![](/icons/change-updated@3x.png)|
 |Check|![](/icons/check@3x.png)|
+|CheckboxCheckedBlue|![](/icons/checkbox-checked-blue@3x.png)|
 |CheckboxCheckedDisabled|![](/icons/checkbox-checked-disabled@3x.png)|
 |CheckboxChecked|![](/icons/checkbox-checked@3x.png)|
 |CheckboxCheckmark|![](/icons/checkbox-checkmark@3x.png)|
