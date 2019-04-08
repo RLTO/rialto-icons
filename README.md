@@ -233,6 +233,7 @@ Below you'll find a list of icons
 |Subscribe|![](/icons/subscribe@3x.png)|
 |TeamBlue|![](/icons/team-blue@3x.png)|
 |Team|![](/icons/team@3x.png)|
+|TimeWhite|![](/icons/time-white@3x.png)|
 |Time|![](/icons/time@3x.png)|
 |Trophy|![](/icons/trophy@3x.png)|
 |UnderOffer|![](/icons/under_offer@3x.png)|
