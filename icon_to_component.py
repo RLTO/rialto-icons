@@ -1,6 +1,7 @@
 import glob
 import os.path
 import subprocess
+import re
 
 def svgo():
   subprocess.call([
@@ -41,6 +42,25 @@ def _fix_xmlns_xlink(svg, attr):
     attr_index = svg.find(attr + ':')
   return svg
 
+def _get_fill_default(svg):
+  match = re.search('fill=("#[a-fA-F0-9]{6}")', svg)
+  if (match):
+    return "fill: {fill},".format(fill = match.groups()[0])
+  else:
+    return ""
+
+def _get_stroke_default(svg):
+  match = re.search('stroke=("#[a-fA-F0-9]{6}")', svg)
+  if (match):
+    return "stroke: {stroke},".format(stroke = match.groups()[0])
+  else:
+    return ""
+
+def _replace_fill_stroke(svg):
+  svg = re.sub('fill="#[a-fA-F0-9]{6}"', 'fill={fill}', svg)
+  svg = re.sub('stroke="#[a-fA-F0-9]{6}"', 'stroke={stroke}', svg)
+  return svg
+
 def _camel_case_attrs(svg):
     return svg.replace("fill-rule", "fillRule") \
               .replace("stroke-linecap", "strokeLinecap") \
@@ -52,15 +72,18 @@ def _camel_case_attrs(svg):
               .replace("font-weight", "fontWeight")
 
 def create_component(name, svg):
+    default_fill = _get_fill_default(svg)
+    default_stroke = _get_stroke_default(svg)
     svg = _fix_xmlns_xlink(svg, 'xmlns')
     svg = _fix_xmlns_xlink(svg, 'xlink')
     svg = _camel_case_attrs(svg)
+    svg = _replace_fill_stroke(svg)
     componentString = '''import React from "react";
 import PropTypes from "prop-types";
 import getIconStyle from "./iconStyle.js";
 
 const {name} = (props) => {{
-  const {{ dimensions, onClick, size, ...otherProps }} = props;
+  const {{ dimensions, onClick, size, fill, stroke, ...otherProps }} = props;
   return (
     <svg style={{{{ ...getIconStyle(size), ...dimensions }}}} onClick={{onClick}} {{...otherProps}}>
       {svg}
@@ -75,10 +98,22 @@ const {name} = (props) => {{
     height: PropTypes.string,
     width: PropTypes.string,
   }}),
+  fill: PropTypes.string,
+  stroke: PropTypes.string,
+}};
+
+{name}.defaultProps = {{
+  {default_fill}
+  {default_stroke}
 }};
 
 export default {name};
-'''.format(name = name, svg = svg)
+'''.format(
+        name = name,
+        svg = svg,
+        default_fill = default_fill,
+        default_stroke = default_stroke
+    )
     return componentString
 
 def write_component(name, component):
