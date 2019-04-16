@@ -88,6 +88,7 @@ Below you'll find a list of icons
 |DocumentTypePdf|![](/icons/document-type-pdf@3x.png)|
 |DocumentTypePng|![](/icons/document-type-png@3x.png)|
 |DocumentTypePpt|![](/icons/document-type-ppt@3x.png)|
+|DocumentTypeSvg|![](/icons/document-type-svg@3x.png)|
 |DocumentTypeXls|![](/icons/document-type-xls@3x.png)|
 |DocumentTypeXml|![](/icons/document-type-xml@3x.png)|
 |DocumentTypeZip|![](/icons/document-type-zip@3x.png)|
@@ -162,6 +163,7 @@ Below you'll find a list of icons
 |MimeTypeLeaddadi|![](/icons/mime-type-leaddadi@3x.png)|
 |MimeTypePdf|![](/icons/mime-type-pdf@3x.png)|
 |MimeTypePng|![](/icons/mime-type-png@3x.png)|
+|MimeTypeSvg|![](/icons/mime-type-svg@3x.png)|
 |MimeTypeXls|![](/icons/mime-type-xls@3x.png)|
 |MimeTypeXml|![](/icons/mime-type-xml@3x.png)|
 |MimeTypeZip|![](/icons/mime-type-zip@3x.png)|
