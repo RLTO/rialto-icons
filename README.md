@@ -124,6 +124,8 @@ Below you'll find a list of icons
 |FileTypeXml|![](/icons/file_type-xml@3x.png)|
 |GridBlue|![](/icons/grid-blue@3x.png)|
 |Grid|![](/icons/grid@3x.png)|
+|InUseBlack|![](/icons/in-use-black@3x.png)|
+|InUse|![](/icons/in-use@3x.png)|
 |InboxContents|![](/icons/inbox-contents@3x.png)|
 |Inbox|![](/icons/inbox@3x.png)|
 |IncentiveExpansion|![](/icons/incentive-expansion@3x.png)|
