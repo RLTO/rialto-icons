@@ -125,7 +125,7 @@ Below you'll find a list of icons
 |GridBlue|![](/icons/grid-blue@3x.png)|
 |Grid|![](/icons/grid@3x.png)|
 |InUseBlack|![](/icons/in-use-black@3x.png)|
-|InUse|![](/icons/in-use@3x.png)|
+|InUseGreen|![](/icons/in-use-green@3x.png)|
 |InboxContents|![](/icons/inbox-contents@3x.png)|
 |Inbox|![](/icons/inbox@3x.png)|
 |IncentiveExpansion|![](/icons/incentive-expansion@3x.png)|
