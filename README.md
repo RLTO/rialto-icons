@@ -4,6 +4,7 @@ Below you'll find a list of icons
 
 | Name  | Preview |
 |-------|---------|
+|LinkedIn|![](/icons/LinkedIn@3x.png)|
 |AddBlack|![](/icons/add-black@3x.png)|
 |AddFileGreen|![](/icons/add-file-green@3x.png)|
 |Add|![](/icons/add@3x.png)|
