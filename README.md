@@ -123,6 +123,7 @@ Below you'll find a list of icons
 |FileTypePpt|![](/icons/file_type-ppt@3x.png)|
 |FileTypeXls|![](/icons/file_type-xls@3x.png)|
 |FileTypeXml|![](/icons/file_type-xml@3x.png)|
+|Gmail|![](/icons/gmail@3x.png)|
 |GridBlue|![](/icons/grid-blue@3x.png)|
 |Grid|![](/icons/grid@3x.png)|
 |InUseBlack|![](/icons/in-use-black@3x.png)|
@@ -185,6 +186,7 @@ Below you'll find a list of icons
 |Notifications|![](/icons/notifications@3x.png)|
 |OpenGreen|![](/icons/open-green@3x.png)|
 |Open|![](/icons/open@3x.png)|
+|Outlook|![](/icons/outlook@3x.png)|
 |Phone|![](/icons/phone@3x.png)|
 |PlusCircleBlack|![](/icons/plus-circle-black@3x.png)|
 |PlusCircleGreen|![](/icons/plus-circle-green@3x.png)|
