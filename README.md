@@ -123,6 +123,7 @@ Below you'll find a list of icons
 |FileTypePpt|![](/icons/file_type-ppt@3x.png)|
 |FileTypeXls|![](/icons/file_type-xls@3x.png)|
 |FileTypeXml|![](/icons/file_type-xml@3x.png)|
+|Flyer|![](/icons/flyer@3x.png)|
 |Fullscreen|![](/icons/fullscreen@3x.png)|
 |Gmail|![](/icons/gmail@3x.png)|
 |GridBlue|![](/icons/grid-blue@3x.png)|
