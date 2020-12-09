@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" viewBox="0 0 12 10">
-  <g fill="none" fill-rule="evenodd">
-    <polygon fill="#91A6B6" points="1 9 1.007 3 .007 2.997 0 10 12 10 12 3 11 3.003 11 9"/>
-    <path stroke="#91A6B6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.5,4.5 L6,7 L8.5,4.5 M6,7 L6,1"/>
-  </g>
-</svg>
