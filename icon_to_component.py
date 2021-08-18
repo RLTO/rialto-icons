@@ -7,10 +7,6 @@ def svgo():
   subprocess.call([
     'node',
     './node_modules/svgo/bin/svgo',
-    '--disable=removeViewBox',
-    '--enable=removeDimensions',
-    '--config',
-    './svgo-config.yaml',
     '-f',
     './icons',
     '-o',

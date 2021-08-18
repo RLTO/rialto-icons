@@ -3,11 +3,11 @@ node_js:
   - "lts/*"
 branches:
   only:
-  - master
+    - master
 install:
   - yarn --pure-lockfile
   - chmod +x ./deploy.sh
-script:	
+script:
   - node scripts/build.js
 deploy:
   provider: script
