@@ -36,6 +36,7 @@ Below you'll find a list of icons
 |AutoApplySilver|![](/icons/auto_apply-silver@3x.png)|
 |AutoApplyWhite|![](/icons/auto_apply-white@3x.png)|
 |AutoApply|![](/icons/auto_apply@3x.png)|
+|BoardNoProspects|![](/icons/board-no-prospects@3x.png)|
 |Bullhorn|![](/icons/bullhorn@3x.png)|
 |Call|![](/icons/call@3x.png)|
 |CategoryArchive|![](/icons/category-archive@3x.png)|
